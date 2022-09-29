@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  scroll-behavior: smooth;
+}
+
+section {
+  padding: 20px;
+}
+
+section img {
+  border-radius: 40px;
+  margin: 20px;
+  height: 100%;
+  width: 35%;
+  box-shadow: 2px 1px 10px #888888;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #EFE5DC;
+  color: black;
+  font-size: large;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+/* ------------------------------------------------- */
+
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 1px 10px #888888;
+  border-style: solid;
+  border-width: thin;
+  border: black;
+  overflow: hidden;
+  padding: 1% 5%;
+  background-color: #EFE5DC;
+  position: fixed;
+  top: 0;
+}
+
+header a img {
+  height: 100%;
+}
+
+header nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ------------------------------------------------- */
+
+.hero_section {
+  padding-top: 125px;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #462503;
+  color: white;
+}
+
+.container h1 {
+  font-size: xxx-large;
+  text-transform: uppercase;
+  margin: 20px 0px;
+}
+.container p {
+  font-size: larger;
+  margin-bottom: 10px;
+}
+
+/* ------------------------------------------------- */
+
+.gallery {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(auto, 282px));
+  grid-gap: 20px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.gallery img{
+  min-width: 100%;
+  margin: 0px;
+  box-shadow: 2px 1px 10px #888888;
+}
+
+/* ------------------------------------------------- */
+
+.footer {
+  padding: 3% 20%;
+  background-color: #EFE5DC;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 2px 1px 10px #888888;
+}
+
+footer p {
+  text-align: center;
+  margin: 15px 0px;
+}
+
+footer p a {
+  color: black;
+  text-decoration: underline;
+}
