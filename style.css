@@ -135,3 +135,53 @@ footer p a {
   color: black;
   text-decoration: underline;
 }
+
+
+/*MENY---------------------------------------*/
+* {
+  box-sizing: border-box;
+}
+
+.Meny .Drinks {
+  background-color: rgb(246, 215, 169);
+  height: 50px;
+  width: 50%;
+  float: left;
+}
+
+
+
+
+.Meny .Food{
+  background-color: rgb(255, 208, 106);
+  height: 50px;
+  width: 50%;
+  float: right;
+  
+}
+
+.Drinks h1{
+  text-align: center;
+  color: black;
+}
+
+.Food h1{
+  text-align: center;
+  color: black;
+}
+
+.Food hr{
+  border: 1px solid rgb(0, 0, 0);
+  width: 50%;
+  /*align-items: center;*/
+  margin: auto;
+  padding: 2px;
+}
+
+.Drinks hr{
+  border: 1px solid rgb(0, 0, 0);
+  width: 50%;
+  /*align-items: center;*/
+  margin: auto;
+  padding: 2px;
+}
