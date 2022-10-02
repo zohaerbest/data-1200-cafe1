@@ -85,7 +85,7 @@ header nav a:hover {
   display: flex;
   text-align: center;
   align-items: center;
-  background-color: #462503;
+  background-color: #a27350;
   color: white;
 }
 
@@ -142,32 +142,52 @@ footer p a {
   box-sizing: border-box;
 }
 
+
 .Meny .Drinks {
-  background-color: rgb(246, 215, 169);
-  height: 50px;
+  background-color: rgba(113, 62, 39, 0.354);
+  height: 1000px;
   width: 50%;
   float: left;
+
 }
 
 
-
-
 .Meny .Food{
-  background-color: rgb(255, 208, 106);
-  height: 50px;
+  background-color: rgba(124, 84, 59, 0.6);
+  height: 1000px;
   width: 50%;
   float: right;
   
+  
+}
+
+* h1{
+  font-size: xx-large;
+  font-weight: 400;
+  font-family: fantasy;
+
 }
 
 .Drinks h1{
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
+  font-size: xxx-large;
+  font-family:fantasy
+}
+
+.Drinks h2{
+  color: white;
+}
+
+.Drinks h3{
+  color: white;
 }
 
 .Food h1{
   text-align: center;
-  color: black;
+  color: rgb(251, 248, 248);
+  font-size: xxx-large;
+  font-family: fantasy;
 }
 
 .Food hr{
@@ -184,4 +204,17 @@ footer p a {
   /*align-items: center;*/
   margin: auto;
   padding: 2px;
+}
+
+.Food h2{
+  color: rgb(5, 5, 5);
+  font-size: x-large;
+}
+
+.Food h3{
+  color: white;
+}
+
+.Food h4{
+  color: white;
 }
