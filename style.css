@@ -178,6 +178,7 @@ footer p a {
   color: rgb(255, 255, 255);
   font-size: xxx-large;
   font-family:fantasy
+
 }
 
 .Drinks h2{
@@ -204,14 +205,15 @@ footer p a {
   font-family: fantasy;
 }
 
-/*
+
 .Food hr{
   border: 1px solid rgb(0, 0, 0);
   width: 50%;
   /*align-items: center;*/
- /* margin: auto;
+  margin: auto;
   padding: 2px;
-} */
+} 
+
 
 
 .Drinks hr{
@@ -221,6 +223,7 @@ footer p a {
   margin: auto;
   padding: 2px;
 }
+
 
 .Food h2{
   color: rgb(5, 5, 5);
@@ -233,6 +236,17 @@ footer p a {
   margin: auto;
   padding: 2px;
   
+}
+.Food h1:hover{
+  color: black;
+}
+
+.Drinks h1:hover{
+  color: black;
+}
+
+.Food h2:hover{
+  color: white;
 }
 
 .Food h3{
@@ -247,11 +261,6 @@ footer p a {
   text-align: center;
 }
 
-.Food h5{
-  color: white;
-  font-family: fantasy;
-  text-align: center;
-}
 
 .Dessert h4{
   color: white;
@@ -259,6 +268,4 @@ footer p a {
   text-align: center;
 }
 
-a:hover {
-  background-color: rgb(162, 118, 38);
-}
+
