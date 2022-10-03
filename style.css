@@ -111,7 +111,8 @@ header nav a:hover {
 }
 
 .gallery img{
-  min-width: 100%;
+  min-width: 95%;
+  height: 650;
   margin: 0px;
   box-shadow: 2px 1px 10px #888888;
 }
