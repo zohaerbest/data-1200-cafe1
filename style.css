@@ -86,7 +86,7 @@ header nav a:hover {
   text-align: center;
   align-items: center;
   background-color: #a27350;
-  color: white;
+  color: black;
 }
 
 .container h1 {
@@ -176,7 +176,7 @@ footer p a {
 
 .Drinks h1{
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: xxx-large;
   font-family:fantasy
 
@@ -194,14 +194,14 @@ footer p a {
 }
 
 .Drinks h3{
-  color: white;
+  color: black;
   font-family: fantasy;
   text-align: center;
 }
 
 .Food h1{
   text-align: center;
-  color: rgb(251, 248, 248);
+  color: rgb(0, 0, 0);
   font-size: xxx-large;
   font-family: fantasy;
 }
@@ -247,24 +247,24 @@ footer p a {
 }
 
 .Food h2:hover{
-  color: white;
+  color: black;
 }
 
 .Food h3{
-  color: white;
+  color: black;
   font-family: fantasy;
   text-align: center;
 }
 
 .Food h4{
-  color: white;
+  color: black;
   font-family: fantasy;
   text-align: center;
 }
 
 
 .Dessert h4{
-  color: white;
+  color: black;
   font-family: fantasy;
   text-align: center;
 }
