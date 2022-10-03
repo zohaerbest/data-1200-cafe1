@@ -95,14 +95,16 @@ header nav a:hover {
   margin: 20px 0px;
 }
 .container p {
-  font-size: larger;
+  font-size: x-large;
   margin-bottom: 10px;
+  line-height: 200%;
 }
 
 /* ------------------------------------------------- */
 
 .gallery {
-  background-color: white;
+  background-color: #EFE5DC;
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(auto, 282px));
   grid-gap: 20px;
@@ -114,7 +116,7 @@ header nav a:hover {
   min-width: 95%;
   height: 650;
   margin: 0px;
-  box-shadow: 2px 1px 10px #888888;
+
 }
 
 /* ------------------------------------------------- */
@@ -146,7 +148,7 @@ footer p a {
 
 .Meny .Drinks {
   background-color: rgba(113, 62, 39, 0.354);
-  height: 1250px;
+  height: 1330px;
   width: 50%;
   float: left;
 
@@ -154,14 +156,14 @@ footer p a {
 
 .Meny .Dessert{
   background-color: rgba(113, 62, 39, 0.354);
-  height: 1250px;
+  height: 1330px;
   width: 50%;
   float: left;
 }
 
 .Meny .Food{
   background-color: rgba(124, 84, 59, 0.6);
-  height: 1250px;
+  height: 1330px;
   width: 50%;
   float: right;
 
@@ -264,4 +266,6 @@ footer p a {
   text-align: center;
 }
 
-
+.Drinks img{
+  width: 300px;
+}
