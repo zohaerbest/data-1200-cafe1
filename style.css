@@ -197,6 +197,7 @@ footer p a {
   color: black;
   font-family: fantasy;
   text-align: center;
+  line-height: 200%;
 }
 
 .Food h1{
@@ -208,21 +209,17 @@ footer p a {
 
 
 .Food hr{
-  border: 1px solid rgb(0, 0, 0);
-  width: 50%;
+  border: 0.5px solid rgb(0, 0, 0);
   /*align-items: center;*/
-  margin: auto;
-  padding: 2px;
+  
 } 
 
 
 
 .Drinks hr{
-  border: 1px solid rgb(0, 0, 0);
-  width: 50%;
+  border: 0.5px solid rgb(0, 0, 0);
   /*align-items: center;*/
-  margin: auto;
-  padding: 2px;
+  
 }
 
 
@@ -237,23 +234,21 @@ footer p a {
   margin: auto;
   padding: 2px;
   
+  
 }
 .Food h1:hover{
-  color: black;
+  color: white;
 }
 
 .Drinks h1:hover{
-  color: black;
-}
-
-.Food h2:hover{
-  color: black;
+  color: white;
 }
 
 .Food h3{
   color: black;
   font-family: fantasy;
   text-align: center;
+  line-height: 190%;
 }
 
 .Food h4{
